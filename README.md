@@ -1,12 +1,14 @@
 # &lt;github&gt;
 
-A Web Component implementation of [@mdo's GitHub button](https://github.com/mdo/github-buttons) using Polymer.
+A Web Component wrapper for [@mdo's GitHub button](https://github.com/mdo/github-buttons) using Polymer.
 
 > Maintained by [Zeno Rocha](https://github.com/zenorocha).
 
 ## Demo
 
 ![GitHub Element](http://zno.io/QtpO/github-element.png)
+
+> [Check it live](http://customelements.github.io/github-element).
 
 ## Usage
 
@@ -51,6 +53,8 @@ Attribute  | Options                   | Default             | Description
 
 ## History
 
+* [v0.1.0](https://github.com/customelements/github-element/releases/tag/0.1.0) August 20, 2013
+	* Initial development release
 * v0.0.1 August 19, 2013
 	* Started project using [boilerplate-element](https://github.com/customelements/boilerplate-element)
 
