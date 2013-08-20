@@ -1,8 +1,12 @@
 # &lt;github&gt;
 
-A Web Component implementation of [mdo's GitHub button](https://github.com/mdo/github-buttons) using Polymer.
+A Web Component implementation of [@mdo's GitHub button](https://github.com/mdo/github-buttons) using Polymer.
 
 > Maintained by [Zeno Rocha](https://github.com/zenorocha).
+
+## Demo
+
+![GitHub Element](http://zno.io/QtpO/github-element.png)
 
 ## Usage
 
