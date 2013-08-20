@@ -1,0 +1,25 @@
+<polymer-element name="github" attributes="user repo type count height width">
+
+	<template>
+		<iframe src="http://ghbtns.com/github-btn.html?user={{user}}&amp;repo={{repo}}&amp;type={{type}}&amp;count={{count}}" allowtransparency="true" frameborder="0" scrolling="0"></iframe>
+
+		<style>
+			iframe {
+				height: {{height}}px;
+				width: {{width}}px;
+			}
+		</style>
+	</template>
+
+	<script>
+		Polymer('github', {
+			user  : 'customelements',
+			repo  : 'github-element',
+			type  : 'watch',
+			count : 'true',
+			height: '25',
+			width : '150'
+		});
+	</script>
+
+</polymer-element>

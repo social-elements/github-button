@@ -1,8 +1,8 @@
-# &lt;my-element&gt;
+# &lt;github&gt;
 
-TODO: Write a project description
+A Web Component implementation of [mdo's GitHub button](https://github.com/mdo/github-buttons) using Polymer.
 
-> Maintained by [Your Name](https://github.com/yourname).
+> Maintained by [Zeno Rocha](https://github.com/zenorocha).
 
 ## Usage
 
@@ -15,23 +15,27 @@ TODO: Write a project description
 2. Import Custom Element:
 
 	```html
-	<link rel="import" href="src/my-element.html">
+	<link rel="import" href="src/github.html">
 	```
 
 3. Start using it!
 
 	```xml
-	<my-element></my-element>
+	<github></github>
 	```
 
 ## Options
 
 Attribute  | Options                   | Default             | Description
 ---        | ---                       | ---                 | ---
-`foo`      | *string*                  | `bar`               | Lorem ipsum
-`bar`      | `abc`, `def`, `ghi` 	   | `foo`               | Lorem ipsum
-`height`   | *int*                     | `100`               | Lorem ipsum
+`user`     | *string*                  | `customelements`    | GitHub username that owns the repo
+`repo`     | *string*                  | `github-element`    | GitHub repository to pull the watchers/forks counts
+`type`     | `follow`, `fork`, `watch` | `watch`             | Type of button to show
+`count`    | `true`, `false`           | `true`              | Show the number of watchers/forks
+`height`   | *int*                     | `25`                | The height of the button
+`width`    | *int*                     | `100`               | The width of the button
 
+> See GitHub Buttons' [official documentation](https://github.com/mdo/github-buttons).
 
 ## Contributing
 
