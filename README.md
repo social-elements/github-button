@@ -1,8 +1,6 @@
-# &lt;github&gt;
+# &lt;github-button&gt;
 
 Web Component wrapper for [@mdo's GitHub button](https://github.com/mdo/github-buttons) using Polymer.
-
-> Maintained by [Zeno Rocha](https://github.com/zenorocha).
 
 ## Demo
 
@@ -21,13 +19,13 @@ Web Component wrapper for [@mdo's GitHub button](https://github.com/mdo/github-b
 2. Import Custom Element:
 
 	```html
-	<link rel="import" href="src/github.html">
+	<link rel="import" href="src/github-button.html">
 	```
 
 3. Start using it!
 
 	```xml
-	<github></github>
+	<github-button></github-button>
 	```
 
 ## Options
@@ -62,4 +60,4 @@ Attribute  | Options                   | Default             | Description
 
 ## License
 
-[MIT License](http://opensource.org/licenses/MIT)
+[MIT License](http://zenorocha.mit-license.org/) © Zeno Rocha
