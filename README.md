@@ -6,7 +6,7 @@ Web Component wrapper for [@mdo's GitHub button](https://github.com/mdo/github-b
 
 ![GitHub Element](http://zno.io/QtpO/github-element.png)
 
-> [Check it live](http://zenorocha.github.io/github-element).
+> [Check it live](http://zenorocha.github.io/github-button).
 
 ## Usage
 
@@ -33,7 +33,7 @@ Web Component wrapper for [@mdo's GitHub button](https://github.com/mdo/github-b
 Attribute  | Options                   | Default             | Description
 ---        | ---                       | ---                 | ---
 `user`     | *string*                  | `customelements`    | GitHub username that owns the repo
-`repo`     | *string*                  | `github-element`    | GitHub repository to pull the watchers/forks counts
+`repo`     | *string*                  | `github-button`     | GitHub repository to pull the watchers/forks counts
 `type`     | `follow`, `fork`, `watch` | `watch`             | Type of button to show
 `count`    | `true`, `false`           | `true`              | Show the number of watchers/forks
 `height`   | *int*                     | `25`                | The height of the button
@@ -51,9 +51,9 @@ Attribute  | Options                   | Default             | Description
 
 ## History
 
-* [v0.1.1](https://github.com/zenorocha/github-element/releases/tag/0.1.1) September 3, 2013
+* [v0.1.1](https://github.com/zenorocha/github-button/releases/tag/0.1.1) September 3, 2013
 	* Use Polymer from CDN and update it to v0.0.20130816
-* [v0.1.0](https://github.com/zenorocha/github-element/releases/tag/0.1.0) August 20, 2013
+* [v0.1.0](https://github.com/zenorocha/github-button/releases/tag/0.1.0) August 20, 2013
 	* Initial development release
 * v0.0.1 August 19, 2013
 	* Started project using [boilerplate-element](https://github.com/customelements/boilerplate-element)
