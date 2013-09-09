@@ -12,13 +12,13 @@ Web Component wrapper for [@mdo's GitHub button](https://github.com/mdo/github-b
 
 1. Import Web Components' polyfill:
 
-	```html
+	```xml
 	<script src="//cdnjs.cloudflare.com/ajax/libs/polymer/0.0.20130816/polymer.min.js"></script>
 	```
 
 2. Import Custom Element:
 
-	```html
+	```xml
 	<link rel="import" href="src/github-button.html">
 	```
 
