@@ -13,7 +13,7 @@ Web Component wrapper for [@mdo's GitHub button](https://github.com/mdo/github-b
 Install the component using [Bower](http://bower.io/):
 
 ```sh
-$ bower install github-button --save
+$ bower install zenorocha/github-button --save
 ```
 
 Or [download as ZIP](https://github.com/zenorocha/github-button/archive/master.zip).
