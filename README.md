@@ -48,6 +48,7 @@ Attribute  | Options                   | Default             | Description
 `count`    | `true`, `false`           | `true`              | Show the number of watchers/forks
 `height`   | *int*                     | `25`                | The height of the button
 `width`    | *int*                     | `100`               | The width of the button
+`size`     | `large`, `regular`        | `regular`           | Indicates the button size
 
 > See GitHub Buttons' [official documentation](https://github.com/mdo/github-buttons).
 

@@ -2,10 +2,10 @@
 <link rel="import" href="../../polymer/polymer.html">
 
 <!-- Define your custom element -->
-<polymer-element name="github-button" attributes="user repo type count height width">
+<polymer-element name="github-button" attributes="user repo type count height width size">
 
     <template>
-        <iframe src="http://ghbtns.com/github-btn.html?user={{user}}&amp;repo={{repo}}&amp;type={{type}}&amp;count={{count}}" allowtransparency="true" frameborder="0" scrolling="0"></iframe>
+        <iframe src="http://ghbtns.com/github-btn.html?user={{user}}&amp;repo={{repo}}&amp;type={{type}}&amp;count={{count}}&amp;size={{size}}" allowtransparency="true" frameborder="0" scrolling="0"></iframe>
 
         <style>
             iframe {
@@ -21,8 +21,9 @@
             repo  : 'webcomponents.github.io',
             type  : 'watch',
             count : 'true',
-            height: '25',
-            width : '150'
+            height: '30',
+            width : '150',
+            size  : 'regular'
         });
     </script>
 
